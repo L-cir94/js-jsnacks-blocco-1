@@ -10,7 +10,7 @@ Il software stampa il maggiore.
 let primoNumero = Number(prompt('inserisci un numero'))
 let secondoNumero = Number(prompt('inserisci un altro numero'))
 if(isNaN(primoNumero)||isNaN(secondoNumero)){
-alert('devi inserire un numerino')
+alert('devi inserire un numero in entrambe i campi!')
 }else{
     if (primoNumero === secondoNumero) {
   console.log(`il primo numero ${primoNumero} e il secondo ${secondoNumero} sono uguali`);
