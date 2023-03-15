@@ -21,6 +21,7 @@ const nonoNumero = Number(prompt('inserisci un altro numero'))
 const decimoNumero = Number(prompt('inserisci un altro numero'))
 console.log(primoNumero+secondoNumero+terzoNumero+quartoNumero+quintoNumero+sestoNumero+settimoNumero+ottavoNumero+nonoNumero+decimoNumero)
 */
+
 /* correct way */
 /* let sum = 0;
 for (let i = 0; i < 10; i++) {
@@ -41,3 +42,4 @@ while ( j < 10 ) {
     j++
 }
 console.log(sum)
+document.getElementById("demo").innerHTML = sum;
