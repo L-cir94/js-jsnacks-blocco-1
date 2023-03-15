@@ -13,6 +13,7 @@ const invitati = [
 'mimmo'
 
 ]
+const hasAccess = 'pluto'
 
 for (let i = 0; i < invitati.length; i++) {
     const element = invitati[i];
